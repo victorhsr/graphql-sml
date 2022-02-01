@@ -1,0 +1,25 @@
+version: '3.2'
+
+services:
+
+  spring-graphql-demo:
+    build: ./spring-graphql-demo
+    image: victorhsr/spring-graphql-demo
+    container_name: spring-graphql-demo
+    ports:
+      - 8081:8081
+    networks:
+      - graphql-demo
+
+  nodejs-graphql-demo:
+    build: ./nodejs-graphql-demo/server
+    image: victorhsr/nodejs-graphql-demo
+    container_name: nodejs-graphql-demo
+    ports:
+      - 4000:4000
+    networks:
+      - graphql-demo
+
+networks:
+  graphql-demo:
+    name: graphql-demo

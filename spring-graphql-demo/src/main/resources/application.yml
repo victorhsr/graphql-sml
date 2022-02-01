@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+external:
+  api:
+    track:
+      location: https://odyssey-lift-off-rest-api.herokuapp.com
+
+graphql:
+  schema-location: graphql/schema.graphqls

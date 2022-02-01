@@ -1,0 +1,13 @@
+# NodeJS
+
+# This project was started as a implementation of the Lift-Off serie from Apollo Odyssey
+# so I'm removing it's client and final project, the focus here is the server implementation
+nodejs-graphql-demo/client
+nodejs-graphql-demo/final
+nodejs-graphql-demo/server/node_modules
+nodejs-graphql-demo/server/.gitignore
+
+# Spring
+spring-graphql-demo/.idea
+spring-graphql-demo/.gradle
+spring-graphql-demo/build
