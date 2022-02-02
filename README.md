@@ -9,7 +9,7 @@ At first, I was only playing around with the `Lift-off` series from the guys fro
 The best documentation you can find about this project(s) is reading the `Lift-off` serie, so go there and have some fun!
 
 ### Endpoints
-* NodeJS (Apollo Server) - `http://localhost:4000`
+* NodeJS (Apollo Server) - `http://localhost:4000/graphql`
 * Kotlin (Spring Framework) - `http://localhost:8081/graphql`
 
 There is also a docker-compose file if you just want to quickly test these implementations
